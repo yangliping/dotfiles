@@ -86,9 +86,6 @@ export JAVA_HOME
 HISTCONTROL=ignoredups
 export HISTCONTROL
 
-# Set the environment variable for the docker daemon
-export DOCKER_HOST=tcp://
-
 source ${HOME}/.virtualenvwrapper.sh
 
 iscreen-mosh () {
