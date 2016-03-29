@@ -91,16 +91,6 @@ export DOCKER_HOST=tcp://
 
 source ${HOME}/.virtualenvwrapper.sh
 
-code () {
-    if [[ $# = 0 ]]
-    then
-        open -a "Visual Studio Code"
-    else
-        [[ $1 = /* ]] && F="$1" || F="$PWD/${1#./}"
-        open -a "Visual Studio Code" --args "$F"
-    fi
-}
-
 iscreen-mosh () {
     mosh $@ -- screen -R -S yangliping
 }
