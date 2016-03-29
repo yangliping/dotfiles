@@ -111,3 +111,7 @@ test -e ${HOME}/.iterm2_shell_integration.bash && source ${HOME}/.iterm2_shell_i
 # The orginal version is saved in .profile.pysave
 PATH="/Library/Frameworks/Python.framework/Versions/3.5/bin:${PATH}"
 export PATH
+
+# Setting PATH for Android SDK Platform-tools
+PATH="/usr/local/android-sdk-macosx/platform-tools:${PATH}"
+export PATH
