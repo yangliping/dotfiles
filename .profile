@@ -8,7 +8,8 @@ alias fan="/usr/local/bin/smc -f"
 alias cputemp="/usr/local/bin/smc -k TC0D -r"
 #alias resetdns="sudo pkill -HUP dnsmasq; sudo dscacheutil -flushcache"
 #alias resetdns="sudo pkill -HUP dnsmasq; sudo discoveryutil mdnsflushcache; sudo discoveryutil udnsflushcaches"
-alias resetdns="sudo pkill -HUP dnsmasq; sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder"
+#alias resetdns="sudo pkill -HUP dnsmasq; sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder"
+alias resetdns="sudo pkill -HUP dnsmasq; sudo killall -HUP mDNSResponder"
 HISTSIZE=3000
 HISTFILESIZE=3000
 
