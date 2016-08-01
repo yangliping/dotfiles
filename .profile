@@ -38,7 +38,7 @@ export LC_CTYPE='en_US.UTF-8'
 #export PATH
 #export DYLD_LIBRARY_PATH
 
-PATH="/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/usr/texbin:${PATH}"
+PATH="/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:${PATH}"
 export PATH
 
 # Setting environment for gcc
@@ -101,4 +101,8 @@ export PATH
 
 # Setting PATH for Android SDK Platform-tools
 PATH="/usr/local/android-sdk-macosx/platform-tools:${PATH}"
+export PATH
+
+# Setting PATH for TeXLive 2016
+PATH=/usr/local/texlive/2016basic/bin/x86_64-darwin:${PATH}
 export PATH
