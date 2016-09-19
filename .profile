@@ -73,7 +73,7 @@ export SDKROOT
 
 # Tell clang to not raise "-mno-fused-madd" error
 # http://stackoverflow.com/questions/22313407/clang-error-unknown-argument-mno-fused-madd-python-package-installation-fa
-export ARCHFLAGS=-Wno-error=unused-command-line-argument-hard-error-in-future
+#export ARCHFLAGS=-Wno-error=unused-command-line-argument-hard-error-in-future
 #export CFLAGS=-Qunused-arguments
 #export CPPFLAGS=-Qunused-arguments
 
