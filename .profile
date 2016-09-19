@@ -94,7 +94,7 @@ iscreen-mosh () {
     mosh $@ -- screen -R -S yangliping
 }
 
-test -e ${HOME}/.iterm2_shell_integration.bash && source ${HOME}/.iterm2_shell_integration.bash
+#test -e ${HOME}/.iterm2_shell_integration.bash && source ${HOME}/.iterm2_shell_integration.bash
 
 # Setting PATH for Python 3.5
 # The orginal version is saved in .profile.pysave
