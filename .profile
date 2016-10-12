@@ -108,3 +108,6 @@ export PATH
 # Setting PATH for TeXLive 2016
 PATH=/usr/local/texlive/2016basic/bin/x86_64-darwin:${PATH}
 export PATH
+
+# Add ~/bin to PATH
+PATH=${PATH}:${HOME}/bin
