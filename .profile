@@ -110,5 +110,8 @@ export PATH
 PATH=/usr/local/texlive/2016basic/bin/x86_64-darwin:${PATH}
 export PATH
 
+# Env for Chez Scheme Version 9.4
+alias petite="/usr/local/ChezScheme-9.4/bin/a6osx/petite --boot /usr/local/ChezScheme-9.4/boot/a6osx/petite.boot --boot /usr/local/ChezScheme-9.4/boot/a6osx/scheme.boot"
+
 # Add ~/bin to PATH
 PATH=${PATH}:${HOME}/bin
