@@ -1,3 +1,4 @@
+alias sudo='sudo '
 alias ls='ls -G -F'
 alias vim='/Applications/MacVim.app/Contents/MacOS/Vim'
 alias bpython="PYTHONPATH=~/workspace/projects/bpython-0.12 ~/workspace/virtualenvs/python-2.7.5/bin/python -m bpython.cli"
