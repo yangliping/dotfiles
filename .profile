@@ -14,8 +14,8 @@ alias sha256sum="/usr/bin/shasum -a 256 "
 #alias resetdns="sudo pkill -HUP dnsmasq; sudo discoveryutil mdnsflushcache; sudo discoveryutil udnsflushcaches"
 #alias resetdns="sudo pkill -HUP dnsmasq; sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder"
 alias resetdns="sudo pkill -HUP dnsmasq; sudo killall -HUP mDNSResponder"
-HISTSIZE=3000
-HISTFILESIZE=3000
+HISTSIZE=10000
+HISTFILESIZE=10000
 
 
 export LC_CTYPE='en_US.UTF-8'
