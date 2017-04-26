@@ -115,3 +115,5 @@ alias petite="/usr/local/ChezScheme-9.4/bin/a6osx/petite --boot /usr/local/ChezS
 
 # Add ~/bin to PATH
 PATH=${PATH}:${HOME}/bin
+
+export PATH="$HOME/.cargo/bin:$PATH"
