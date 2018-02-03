@@ -124,3 +124,8 @@ alias petite="/usr/local/ChezScheme-9.4/bin/a6osx/petite --boot /usr/local/ChezS
 PATH=${PATH}:${HOME}/bin
 
 export PATH="$HOME/.cargo/bin:$PATH"
+
+
+# Setting PATH for nvim
+PATH=/usr/local/nvim/bin:${PATH}
+export PATH
