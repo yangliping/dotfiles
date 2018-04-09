@@ -4,7 +4,7 @@ alias vim='/Applications/MacVim.app/Contents/MacOS/Vim'
 alias bpython="PYTHONPATH=~/workspace/projects/bpython-0.12 ~/workspace/virtualenvs/python-2.7.5/bin/python -m bpython.cli"
 alias ipython="/Users/ping/workspace/virtualenvs/python-2.7.5/bin/ipython"
 alias octave="/usr/local/octave/3.8.0/bin/octave"
-alias curl="/usr/local/curl-7.40.0/bin/curl"
+#alias curl="/usr/local/curl-7.40.0/bin/curl"
 alias fan="/usr/local/bin/smc -f"
 alias cputemp="/usr/local/bin/smc -k TC0D -r"
 alias cdblc="cd /Users/ping/workspace/git.blc"
