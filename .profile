@@ -136,5 +136,5 @@ export PATH="$HOME/.cargo/bin:$PATH"
 
 
 # Setting PATH for nvim
-PATH=/usr/local/nvim/bin:${PATH}
+PATH=/usr/local/nvim-osx64/bin:${PATH}
 export PATH
