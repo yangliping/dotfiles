@@ -14,7 +14,8 @@ alias sha256sum="/usr/bin/shasum -a 256 "
 #alias resetdns="sudo pkill -HUP dnsmasq; sudo dscacheutil -flushcache"
 #alias resetdns="sudo pkill -HUP dnsmasq; sudo discoveryutil mdnsflushcache; sudo discoveryutil udnsflushcaches"
 #alias resetdns="sudo pkill -HUP dnsmasq; sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder"
-alias resetdns="sudo pkill -HUP dnsmasq; sudo killall -HUP mDNSResponder"
+#alias resetdns="sudo pkill -HUP dnsmasq; sudo killall -HUP mDNSResponder"
+#alias resetdns2='while true; do sudo killall -HUP mDNSResponder; ping -c 1 -t 2 www.google.com.hk; if [ $? -eq 0 ]; then break; fi; done'
 HISTSIZE=10000
 HISTFILESIZE=10000
 
