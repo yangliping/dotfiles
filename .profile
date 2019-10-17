@@ -1,6 +1,7 @@
 alias sudo='sudo '
 alias ls='ls -G -F'
 alias vim='/Applications/MacVim.app/Contents/MacOS/Vim'
+alias python="python3"
 alias bpython="PYTHONPATH=~/workspace/projects/bpython-0.12 ~/workspace/virtualenvs/python-2.7.5/bin/python -m bpython.cli"
 alias ipython="/Users/ping/workspace/virtualenvs/python-2.7.5/bin/ipython"
 alias octave="/usr/local/octave/3.8.0/bin/octave"
@@ -106,8 +107,8 @@ iscreen-mosh () {
 
 # Setting PATH for Python 3.5
 # The orginal version is saved in .profile.pysave
-PATH="/Library/Frameworks/Python.framework/Versions/3.5/bin:${PATH}"
-export PATH
+#PATH="/Library/Frameworks/Python.framework/Versions/3.5/bin:${PATH}"
+#export PATH
 
 # Setting PATH for Android SDK Platform-tools
 PATH="/usr/local/android-sdk-macosx/platform-tools:${PATH}"
