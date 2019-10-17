@@ -138,3 +138,6 @@ export PATH="$HOME/.cargo/bin:$PATH"
 # Setting PATH for nvim
 PATH=/usr/local/nvim-osx64/bin:${PATH}
 export PATH
+
+# Fix locale issue in alacritty
+export LC_ALL="en_US.UTF-8"
