@@ -141,3 +141,7 @@ export PATH
 
 # Fix locale issue in alacritty
 export LC_ALL="en_US.UTF-8"
+
+# X11 headers and libraries
+export X11_CFLAGS="-I/opt/X11/include"
+export X11_LIBS="-L/opt/X11/lib -lX11 -lXext -lXmu -lXt"
