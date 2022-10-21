@@ -1,6 +1,7 @@
 alias sudo='sudo '
 alias ls='ls -G -F'
 alias vim='/Applications/MacVim.app/Contents/MacOS/Vim'
+#alias vim='/usr/local/nvim-osx64/bin/nvim'
 alias python="python3"
 alias bpython="PYTHONPATH=~/workspace/projects/bpython-0.12 ~/workspace/virtualenvs/python-2.7.5/bin/python -m bpython.cli"
 alias ipython="/Users/ping/workspace/virtualenvs/python-2.7.5/bin/ipython"
@@ -16,6 +17,7 @@ alias sha256sum="/usr/bin/shasum -a 256 "
 #alias resetdns="sudo pkill -HUP dnsmasq; sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder"
 #alias resetdns="sudo pkill -HUP dnsmasq; sudo killall -HUP mDNSResponder"
 #alias resetdns2='while true; do sudo killall -HUP mDNSResponder; ping -c 1 -t 2 www.google.com.hk; if [ $? -eq 0 ]; then break; fi; done'
+alias flushdns="sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder"
 alias wget_folder='wget -r -nH --cut-dirs=2 --no-parent --reject="index.html*"'
 HISTSIZE=10000
 HISTFILESIZE=10000
@@ -141,7 +143,8 @@ export PATH="$HOME/.cargo/bin:$PATH"
 
 
 # Setting PATH for nvim
-PATH=/usr/local/nvim-osx64/bin:${PATH}
+#PATH=/usr/local/nvim-osx64/bin:${PATH}
+PATH=/usr/local/nvim-0.8.0/bin:${PATH}
 export PATH
 
 # Fix locale issue in alacritty
