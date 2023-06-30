@@ -2,6 +2,7 @@ alias sudo='sudo '
 alias ls='ls -G -F'
 alias vim='/Applications/MacVim.app/Contents/MacOS/Vim'
 #alias vim='/usr/local/nvim-osx64/bin/nvim'
+alias view='nvim -R'
 alias python="python3"
 alias bpython="PYTHONPATH=~/workspace/projects/bpython-0.12 ~/workspace/virtualenvs/python-2.7.5/bin/python -m bpython.cli"
 alias ipython="/Users/ping/workspace/virtualenvs/python-2.7.5/bin/ipython"
@@ -144,7 +145,8 @@ export PATH="$HOME/.cargo/bin:$PATH"
 
 # Setting PATH for nvim
 #PATH=/usr/local/nvim-osx64/bin:${PATH}
-PATH=/usr/local/nvim-0.8.0/bin:${PATH}
+#PATH=/usr/local/nvim-0.8.0/bin:${PATH}
+PATH=/usr/local/nvim-macos/bin:${PATH}
 export PATH
 
 # Fix locale issue in alacritty
