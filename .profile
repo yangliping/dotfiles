@@ -1,6 +1,6 @@
 alias sudo='sudo '
 alias ls='ls -G -F'
-alias vim='/Applications/MacVim.app/Contents/MacOS/Vim'
+#alias vim='/Applications/MacVim.app/Contents/MacOS/Vim'
 #alias vim='/usr/local/nvim-osx64/bin/nvim'
 alias view='nvim -R'
 alias python="python3"
@@ -20,6 +20,7 @@ alias sha256sum="/usr/bin/shasum -a 256 "
 #alias resetdns2='while true; do sudo killall -HUP mDNSResponder; ping -c 1 -t 2 www.google.com.hk; if [ $? -eq 0 ]; then break; fi; done'
 alias flushdns="sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder"
 alias wget_folder='wget -r -nH --cut-dirs=2 --no-parent --reject="index.html*"'
+alias ssh='TERM=screen-256color ssh "$@"'
 HISTSIZE=10000
 HISTFILESIZE=10000
 
@@ -113,7 +114,7 @@ export JAVA_HOME
 HISTCONTROL=ignoredups
 export HISTCONTROL
 
-source ${HOME}/.virtualenvwrapper.sh
+#source ${HOME}/.virtualenvwrapper.sh
 
 iscreen-mosh () {
     mosh $@ -- screen -R -S yangliping
@@ -155,3 +156,5 @@ export LC_ALL="en_US.UTF-8"
 # X11 headers and libraries
 export X11_CFLAGS="-I/opt/X11/include"
 export X11_LIBS="-L/opt/X11/lib -lX11 -lXext -lXmu -lXt"
+
+export BASH_SILENCE_DEPRECATION_WARNING=1
