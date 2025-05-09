@@ -14,3 +14,6 @@ zstyle ':completion:*' matcher-list 'm:{a-zA-Z}={A-Za-z}'
 #zstyle ':completion:*' time true
 
 bindkey \^U backward-kill-line
+
+# homebrew设置FPATH环境变量，添加补全功能
+fpath[1,0]="/opt/homebrew/share/zsh/site-functions";
