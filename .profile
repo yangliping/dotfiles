@@ -148,7 +148,6 @@ alias petite="/usr/local/ChezScheme-9.4/bin/a6osx/petite --boot /usr/local/ChezS
 # Add ~/bin to PATH
 PATH=${PATH}:${HOME}/bin
 
-export PATH="$HOME/.cargo/bin:$PATH"
 
 
 # Setting PATH for nvim
@@ -167,6 +166,9 @@ export HOMEBREW_REPOSITORY="/opt/homebrew";
 export INFOPATH="/opt/homebrew/share/info:${INFOPATH:-}";
 export HOMEBREW_NO_ANALYTICS=1
 export PATH=/opt/homebrew/bin:${PATH}
+
+# Settings for golang
+. "$HOME/.cargo/env"
 
 # Fix locale issue in alacritty
 export LC_ALL="en_US.UTF-8"
