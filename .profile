@@ -157,6 +157,16 @@ export PATH="$HOME/.cargo/bin:$PATH"
 PATH=/usr/local/nvim-macos/bin:${PATH}
 export PATH
 
+# Settings for homebrew
+export HOMEBREW_PREFIX="/opt/homebrew";
+export HOMEBREW_CELLAR="/opt/homebrew/Cellar";
+export HOMEBREW_REPOSITORY="/opt/homebrew";
+# Leading colon in MANPATH prepends default man dirs to search path in Linux and macOS.
+[ -z "${MANPATH-}" ] || export MANPATH=":${MANPATH#:}";
+export INFOPATH="/opt/homebrew/share/info:${INFOPATH:-}";
+export HOMEBREW_NO_ANALYTICS=1
+export PATH=/opt/homebrew/bin:${PATH}
+
 # Fix locale issue in alacritty
 export LC_ALL="en_US.UTF-8"
 
