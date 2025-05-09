@@ -157,7 +157,7 @@ export PATH="$HOME/.cargo/bin:$PATH"
 PATH=/usr/local/nvim-macos/bin:${PATH}
 export PATH
 
-# Settings for homebrew
+# Settings for homebrew (from: "$(/opt/homebrew/bin/brew shellenv)")
 export HOMEBREW_PREFIX="/opt/homebrew";
 export HOMEBREW_CELLAR="/opt/homebrew/Cellar";
 export HOMEBREW_REPOSITORY="/opt/homebrew";
