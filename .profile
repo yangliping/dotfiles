@@ -162,6 +162,7 @@ export HOMEBREW_PREFIX="/opt/homebrew";
 export HOMEBREW_CELLAR="/opt/homebrew/Cellar";
 export HOMEBREW_REPOSITORY="/opt/homebrew";
 # Leading colon in MANPATH prepends default man dirs to search path in Linux and macOS.
+# https://github.com/Homebrew/brew/commit/4ff36552f6e9cc0c62e7dacc2ca6ff3e87ad10b5
 [ -z "${MANPATH-}" ] || export MANPATH=":${MANPATH#:}";
 export INFOPATH="/opt/homebrew/share/info:${INFOPATH:-}";
 export HOMEBREW_NO_ANALYTICS=1
