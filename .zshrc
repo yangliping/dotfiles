@@ -12,3 +12,5 @@ zstyle ':completion:*' matcher-list 'm:{a-zA-Z}={A-Za-z}'
 #zstyle ':completion:*' file-list true
 ## 显示补全结果的修改时间：
 #zstyle ':completion:*' time true
+
+bindkey \^U backward-kill-line
