@@ -101,8 +101,8 @@ export LC_CTYPE='en_US.UTF-8'
 #export SDKROOT
 
 #SDKROOT=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk
-SDKROOT=/Library/Developer/CommandLineTools
-export SDKROOT
+#SDKROOT=/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk
+#export SDKROOT
 
 # Tell clang to not raise "-mno-fused-madd" error
 # http://stackoverflow.com/questions/22313407/clang-error-unknown-argument-mno-fused-madd-python-package-installation-fa
