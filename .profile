@@ -20,7 +20,7 @@ alias sha256sum="/usr/bin/shasum -a 256 "
 #alias resetdns2='while true; do sudo killall -HUP mDNSResponder; ping -c 1 -t 2 www.google.com.hk; if [ $? -eq 0 ]; then break; fi; done'
 alias flushdns="sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder"
 alias wget_folder='wget -r -nH --cut-dirs=2 --no-parent --reject="index.html*"'
-alias ssh='TERM=screen-256color ssh "$@"'
+alias ssh='TERM=xterm-256color ssh "$@"'
 HISTSIZE=10000
 HISTFILESIZE=10000
 
