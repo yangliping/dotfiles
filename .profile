@@ -168,6 +168,9 @@ export HOMEBREW_NO_ANALYTICS=1
 export PATH=/opt/homebrew/bin:${PATH}
 
 # Settings for golang
+export PATH=${PATH}:${HOME}/go/bin
+
+# Settings for rust
 . "$HOME/.cargo/env"
 
 # Fix locale issue in alacritty
