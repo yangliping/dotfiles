@@ -7,6 +7,7 @@ vim.opt.shiftwidth = 4
 vim.opt.softtabstop = 4
 vim.opt.fileencodings = "ucs-bom,utf-8,cp936,gb18030,big5,euc-jp,euc-kr,latin1"
 vim.opt.termguicolors = true
+vim.opt.background = "light"
 vim.g.editorconfig = true
 
 vim.keymap.set("n", "<C-h>", ":noh<CR>", {desc="nohight"})
