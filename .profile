@@ -154,7 +154,7 @@ PATH=${PATH}:${HOME}/bin
 # Setting PATH for nvim
 #PATH=/usr/local/nvim-osx64/bin:${PATH}
 #PATH=/usr/local/nvim-0.8.0/bin:${PATH}
-PATH=/usr/local/nvim-macos/bin:${PATH}
+PATH=/usr/local/nvim/bin:${PATH}
 export PATH
 
 # Settings for homebrew (from: "$(/opt/homebrew/bin/brew shellenv)")
