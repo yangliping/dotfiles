@@ -6,6 +6,7 @@ alias view='nvim -R'
 alias python="python3"
 alias bpython="PYTHONPATH=~/workspace/projects/bpython-0.12 ~/workspace/virtualenvs/python-2.7.5/bin/python -m bpython.cli"
 alias ipython="/Users/ping/workspace/virtualenvs/python-2.7.5/bin/ipython"
+alias pyauto="source ~/workspace/projects/pyauto3.13/bin/activate"
 alias octave="/usr/local/octave/3.8.0/bin/octave"
 #alias curl="/usr/local/curl-7.40.0/bin/curl"
 alias fan="/usr/local/bin/smc -f"
