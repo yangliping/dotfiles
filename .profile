@@ -28,6 +28,9 @@ HISTFILESIZE=10000
 
 export LC_CTYPE='en_US.UTF-8'
 
+## Prepend Python 3.13 venv bin to PATH for priority
+export PATH="/Users/ping/workspace/projects/pyauto3.13/bin:$PATH"
+
 ## Setting PATH for Python 2.7
 ## The orginal version is saved in .profile.pysave
 #PATH="/Library/Frameworks/Python.framework/Versions/2.7/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/usr/texbin:${PATH}"
